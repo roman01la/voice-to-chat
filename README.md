@@ -2,6 +2,12 @@
 
 A small CLI and menubar app that transcribes voice recording and rewrites it in a style of a written text. Using it for lengthy responses, because I'm lazy to type in a lot of text.
 
+## Installation
+
+```bash
+brew install sox # installs `rec` (audio recording) and `lame` (wav to mp3 conversion) CLIs
+```
+
 ## Usage
 
 Create `.env` file at the root of the project and add your OpenAI key in there

@@ -2,7 +2,7 @@
   "name": "lazy-human",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "EPL2",
   "scripts": {
     "start": "electron src/electron.js"
   },
