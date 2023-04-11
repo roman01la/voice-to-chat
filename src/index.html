@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy human</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+
+      html * {
+        box-sizing: inherit;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 16px;
+        width: 100vw;
+        height: 100vh;
+        background: #f7f5ef;
+        color: #242424;
+        font: 400 14px "Inter", sans-serif;
+        letter-spacing: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -moz-font-feature-settings: "liga" on;
+        line-height: 1.4;
+        text-rendering: optimizeLegibility;
+      }
+      body > div {
+        width: 100%;
+        margin: 4px 0;
+      }
+      textarea {
+        width: 100%;
+      }
+      #log {
+        max-height: 160px;
+        overflow-y: auto;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button id="record-btn">Record</button>
+    </div>
+    <div>
+      <textarea name="" id="output" cols="30" rows="10"></textarea>
+    </div>
+    <div id="log"></div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

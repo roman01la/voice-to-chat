@@ -1,0 +1,17 @@
+{
+  "name": "lazy-human",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron src/electron.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "menubar": "^9.3.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "electron": "^24.0.0"
+  }
+}
